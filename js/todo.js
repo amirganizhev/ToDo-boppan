@@ -16,11 +16,11 @@ listAdd.onclick = () => {
 						   </div>`;
 	listInput.value = "";
 
-	let deleteButton = document.querySelectorAll(".delete-button");
+	/*let deleteButton = document.querySelectorAll(".delete-button");
 
 	for(let i = 0, i <= )
 
 	deleteButton.onclick = () => {
 		console.log('log');
-	}
+	}*/
 }
