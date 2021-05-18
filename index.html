@@ -16,22 +16,26 @@
 		<h1>ToDo-boppan</h1>
 
 		<div class="todo-form">
-			<input type="text">
-			<button id="listAdd">Добавить</button>
+			<input type="text" class="listInput">
+			<button class="listAdd">Добавить</button>
 		</div>
 
-		<div class="todo-list">
-			<h2>Номер 1</h2>
-			<textarea>Loremsavvvvvvvvvvvvvvvvvvv </textarea>
-			<button class="delete-button">Удалить ✗</button>
-			<button class="edit-button">Сохранить ジ</button>
-			<button class="marker-button">Отметить ✓</button>
-		</div>
+		<div id="todoList"></div>
+
+		<div>Общее:<span class="total"></span></div>
 
 	</div>
 
 	<script type="text/javascript" src="js/textarea.js"></script>
-	<script type="text/javascript" src="js/createlement.js"></script>
+	<script type="text/javascript" src="js/todo.js"></script>
+
+<!--
+	<h2>Номер 1</h2>
+	<textarea>Loremsavvvvvvvvvvvvvvvvvvv </textarea>
+	<button class="delete-button">Удалить ✗</button>
+	<button class="edit-button">Сохранить ジ</button>
+	<button class="marker-button">Отметить ✓</button>
+-->
 
 </body>
 </html>
